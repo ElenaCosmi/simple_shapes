@@ -1,0 +1,29 @@
+* {
+  box-sizing: border-box;
+}
+
+.stable-square,
+.stable-rectangle,
+.stable-circle,
+.stable-ellipse {
+  height: 250px;
+  width: 250px;
+  margin: 10px;
+}
+
+.animated-ellipse {
+  width: 250px;
+  height: 250px;
+}
+
+.ellipse {
+  fill: black;
+  stroke: gray;
+  stroke-width: 5px;
+}
+
+.ellipse:hover {
+  fill: blue;
+  stroke: yellow;
+  stroke-width: 10px;
+}
